@@ -14,21 +14,5 @@ Website portofolio pribadi dengan halaman Beranda, Tentang, Proyek (3 item), dan
 - Vercel (hosting)
 
 ## Tautan
-- Website (Vercel): (isi URL Vercel Anda)
+- Website (Vercel): (https://portofolio-125103081.vercel.app/)
 - Repository: (isi URL repository GitHub Anda)
-
-## Struktur Folder
-```
-portofolio-NIM/
-|-- index.html
-|-- tentang.html
-|-- projects.html
-|-- kontak.html
-|-- css/
-|   |-- style.css
-|   `-- responsif.css
-|-- img/
-|   `-- foto.jpg
-|-- README.md
-`-- .gitignore
-```
