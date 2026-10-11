@@ -1,0 +1,15 @@
+/* Penyesuaian tampilan ponsel. Dimuat setelah style.css; tampilan desktop tidak berubah. */
+img{max-width:100%}
+td{overflow-wrap:anywhere}
+
+@media(max-width:600px){
+  .topbar .isi{padding:16px 20px}
+  .topbar ul{flex-wrap:wrap;gap:6px 20px}
+  .topbar li a{font-size:.8rem;letter-spacing:1px}
+  main{padding:32px 20px}
+  h2{font-size:1.7rem}
+  th{width:38%}
+  button{width:100%;margin-right:0}
+  button+button{margin-top:12px}
+  .tombol{display:block;text-align:center}
+}

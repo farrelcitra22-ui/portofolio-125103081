@@ -1,0 +1,31 @@
+/* CSS eksternal: gaya sederhana dan elegan */
+:root{--teks:#2a2a2a;--redup:#6b6b6b;--latar:#faf9f7;--garis:#e4e0d8;--aksen:#7a5c3e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Helvetica Neue",Arial,sans-serif;color:var(--teks);background:var(--latar);line-height:1.8}
+a{color:var(--aksen);text-underline-offset:4px}
+a:hover{color:var(--teks)}
+.topbar{border-bottom:1px solid var(--garis)}
+.topbar .isi{max-width:880px;margin:auto;padding:22px 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.logo{font-family:Georgia,"Times New Roman",serif;font-size:1.25rem;letter-spacing:.5px}
+.topbar ul{list-style:none;display:flex;gap:28px}
+.topbar li a{color:var(--redup);text-decoration:none;font-size:.9rem;letter-spacing:1.5px;text-transform:uppercase;padding-bottom:4px;border-bottom:1px solid transparent}
+.topbar li a:hover,.topbar li a.aktif{color:var(--teks);border-bottom-color:var(--aksen)}
+main{max-width:880px;margin:auto;padding:64px 24px}
+h2{font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:2.4rem;line-height:1.25;margin-bottom:10px}
+h3{font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:1.25rem;margin-bottom:14px}
+.sub{color:var(--redup);margin-bottom:44px}
+section{padding:32px 0;border-top:1px solid var(--garis)}
+.dua{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:center}
+.foto{width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;display:block}
+ul.daftar,ol.daftar{padding-left:20px;color:var(--redup)}
+ul.daftar li,ol.daftar li{margin-bottom:6px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px 0;border-bottom:1px solid var(--garis);text-align:left;font-weight:normal}
+th{color:var(--redup);width:34%}
+label{display:block;margin:20px 0 6px;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;color:var(--redup)}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid var(--garis);border-radius:2px;background:#fff;font:inherit;color:var(--teks)}
+input:focus,select:focus,textarea:focus,a:focus-visible,button:focus-visible{outline:2px solid var(--aksen);outline-offset:2px}
+button{margin:24px 12px 0 0;padding:12px 32px;background:var(--teks);color:#fff;border:1px solid var(--teks);border-radius:2px;font:.85rem "Helvetica Neue",Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer}
+button:hover{background:var(--aksen);border-color:var(--aksen)}
+footer{text-align:center;padding:32px 24px;border-top:1px solid var(--garis);color:var(--redup);font-size:.85rem}
+@media(max-width:700px){.dua{grid-template-columns:1fr;gap:32px}.foto{max-width:200px}h2{font-size:1.9rem}main{padding:40px 24px}}
