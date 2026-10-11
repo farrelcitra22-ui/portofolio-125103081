@@ -15,4 +15,4 @@ Website portofolio pribadi dengan halaman Beranda, Tentang, Proyek (3 item), dan
 
 ## Tautan
 - Website (Vercel): (https://portofolio-125103081.vercel.app/)
-- Repository: (isi URL repository GitHub Anda)
+- Repository: (https://github.com/farrelcitra22-ui/portofolio-125103081)
